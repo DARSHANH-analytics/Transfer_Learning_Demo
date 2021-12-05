@@ -7,7 +7,7 @@ from src.utils.common import read_yaml, create_directories
 import random
 import tensorflow as tf
 from tensorflow import keras
-
+import io
 
 STAGE = "Creating base model" ## <<< change stage name 
 
@@ -56,7 +56,15 @@ def main(config_path):
 
     model.compile(loss=LOSS, optimizer=OPTIMIZER,metrics=METRICS)
 
-    model.summary()
+    ## log model summary information in log file
+    # model.summary()
+    def _log_model_summary(model):
+        with io.StringIO() as stream:
+            model.summary(print_fn = lambda x: stream.write(f"{(x)}\n"))
+            summary_str = stream.getvalue()
+        return summary_str
+
+    logging.info(f"{STAGE} summary: \n{_log_model_summary(model)}")
 
     ## Train the model
     history = model.fit(X_train, y_train,epochs=10,validation_data = (X_valid,y_valid),verbose=True)
