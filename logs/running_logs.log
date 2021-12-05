@@ -1,0 +1,69 @@
+[2021-12-05 11:13:57,960: INFO: 01_base_model_creation]: 
+********************
+[2021-12-05 11:13:57,960: INFO: 01_base_model_creation]: >>>>> stage Creating base model started <<<<<
+[2021-12-05 11:13:57,961: ERROR: 01_base_model_creation]: main() missing 1 required positional argument: 'params_path'
+Traceback (most recent call last):
+  File "src/01_base_model_creation.py", line 70, in <module>
+    main(config_path=parsed_args.config)
+TypeError: main() missing 1 required positional argument: 'params_path'
+[2021-12-05 11:15:28,245: INFO: 01_base_model_creation]: 
+********************
+[2021-12-05 11:15:28,245: INFO: 01_base_model_creation]: >>>>> stage Creating base model started <<<<<
+[2021-12-05 11:15:28,247: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-12-05 11:15:30,663: ERROR: 01_base_model_creation]: module 'keras.api._v2.keras.layers' has no attribute 'LeakyRelu'
+Traceback (most recent call last):
+  File "src/01_base_model_creation.py", line 70, in <module>
+    main(config_path=parsed_args.config)
+  File "src/01_base_model_creation.py", line 43, in main
+    keras.layers.LeakyRelu(),
+AttributeError: module 'keras.api._v2.keras.layers' has no attribute 'LeakyRelu'
+[2021-12-05 11:18:39,627: INFO: 01_base_model_creation]: 
+********************
+[2021-12-05 11:18:39,627: INFO: 01_base_model_creation]: >>>>> stage Creating base model started <<<<<
+[2021-12-05 11:18:39,629: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-12-05 11:18:40,507: ERROR: 01_base_model_creation]: module 'keras.api._v2.keras.layers' has no attribute 'LeakyRelu'
+Traceback (most recent call last):
+  File "src/01_base_model_creation.py", line 70, in <module>
+    main(config_path=parsed_args.config)
+  File "src/01_base_model_creation.py", line 43, in main
+    keras.layers.LeakyRelu(),
+AttributeError: module 'keras.api._v2.keras.layers' has no attribute 'LeakyRelu'
+[2021-12-05 11:22:25,270: INFO: 01_base_model_creation]: 
+********************
+[2021-12-05 11:22:25,270: INFO: 01_base_model_creation]: >>>>> stage Creating base model started <<<<<
+[2021-12-05 11:22:25,272: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-12-05 11:22:25,796: ERROR: 01_base_model_creation]: module 'keras.api._v2.keras.layers' has no attribute 'LeakyRelu'
+Traceback (most recent call last):
+  File "src/01_base_model_creation.py", line 70, in <module>
+    main(config_path=parsed_args.config)
+  File "src/01_base_model_creation.py", line 43, in main
+    keras.layers.LeakyRelu(),
+AttributeError: module 'keras.api._v2.keras.layers' has no attribute 'LeakyRelu'
+[2021-12-05 11:23:59,688: INFO: 01_base_model_creation]: 
+********************
+[2021-12-05 11:23:59,688: INFO: 01_base_model_creation]: >>>>> stage Creating base model started <<<<<
+[2021-12-05 11:23:59,692: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-12-05 11:24:00,303: ERROR: 01_base_model_creation]: module 'keras.api._v2.keras.layers' has no attribute 'LeakyRelu'
+Traceback (most recent call last):
+  File "src/01_base_model_creation.py", line 70, in <module>
+    main(config_path=parsed_args.config)
+  File "src/01_base_model_creation.py", line 45, in main
+    keras.layers.LeakyRelu(),
+AttributeError: module 'keras.api._v2.keras.layers' has no attribute 'LeakyRelu'
+[2021-12-05 11:25:17,469: INFO: 01_base_model_creation]: 
+********************
+[2021-12-05 11:25:17,469: INFO: 01_base_model_creation]: >>>>> stage Creating base model started <<<<<
+[2021-12-05 11:25:17,471: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-12-05 11:25:17,998: ERROR: 01_base_model_creation]: module 'keras.api._v2.keras.layers' has no attribute 'LeakyRelu'
+Traceback (most recent call last):
+  File "src/01_base_model_creation.py", line 70, in <module>
+    main(config_path=parsed_args.config)
+  File "src/01_base_model_creation.py", line 45, in main
+    tf.keras.layers.LeakyRelu(),
+AttributeError: module 'keras.api._v2.keras.layers' has no attribute 'LeakyRelu'
+[2021-12-05 11:28:48,016: INFO: 01_base_model_creation]: 
+********************
+[2021-12-05 11:28:48,016: INFO: 01_base_model_creation]: >>>>> stage Creating base model started <<<<<
+[2021-12-05 11:28:48,018: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2021-12-05 11:28:53,280: INFO: 01_base_model_creation]: >>>>> stage Creating base model completed!<<<<<
+
